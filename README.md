@@ -26,6 +26,9 @@ This project implements a reinforcement learning (RL) trading agent using Deep Q
 Historical 1-minute frequency data from 2000 to 2018 is used to train an agent for high-frequency intraday trading with the goal of making a profit. A total of 300 trading days are used for training the agent. The agent appears to start making steady profits around the 100th day. However, it becomes highly unstable (more specifically, goes MADDDD!!!) after 250 trading days, so I have only plotted the data for the first 240 days.
 
 For anyone attempting to replicate the results, please note that I created 25 high-frequency factors to construct observations at each step, which go beyond the factors provided in `HighFreqFactors.py` (after all, I can't do all the work for you, right?). It is recommended to conduct some research on high-frequency factors before cloning this project.
+
+The data used is provided as a link (Google Drive) in `.data/link.txt`. Just take it anyway as it costed me 5 bucks.
+
 ![output](https://github.com/user-attachments/assets/1daad57f-6136-48bc-8169-55430d1a31cf)
 
 
