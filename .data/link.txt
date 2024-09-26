@@ -1,1 +1,2 @@
-
+The source data of APPL 1min frequency is too large and cannot be uploaded to github.
+Pls refer to link to download: https://drive.google.com/file/d/1af9c0mfTQndvtUkKk8CxbcO5DV4Cv7rU/view?usp=drive_link
