@@ -29,6 +29,14 @@ For anyone attempting to replicate the results, please note that I created 25 hi
 
 The data used is provided as a link (Google Drive) in `.data/link.txt`. Just take it anyway as it costed me 5 bucks.
 
+#### Some Facts About the Example Performance
+1. **Trading Frequency**: Although i impose a penalty on frequent trading activity, on average the agent trading about 200 times day. And as the agent goes mad gradually, the frequency of trading increased sharply, as evidenced by the increasing occurance of high commission in later stages
+
+2. **Solution**: Going to explore more penalize methods in future.
+
+3. **Some Illussions**: I imposed a lagged trading strategy here, we make decision at 9:03 and the trading is performed on 9:04. And the commission for each share traded is 0.0002, which is also reasonable in reality. So if further effort made to restrict the agent to go mad, we might expect to profit $30000 with an initial endowment of $10000 within a year.
+
+
 ![output](https://github.com/user-attachments/assets/1daad57f-6136-48bc-8169-55430d1a31cf)
 
 
