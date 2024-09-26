@@ -1,5 +1,6 @@
 # Reinforcement Learning Trading Agent
 
+## Introduction
 This project implements a reinforcement learning (RL) trading agent using Deep Q-Networks (DQN). The agent is trained to trade stocks based on historical minute-level data. The project includes data preprocessing, feature engineering, environment setup, agent training, and performance visualization.
 
 ## Project Structure
